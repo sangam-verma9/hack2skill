@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .nlink:hover{
+    background-color:rgb(227, 227, 219) ;
+    border-radius: 10px;
+} */
+
+.login {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.loginlink {
+  margin: 10px;
+}
+.cadehov:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+}
+form div {
+  margin: 15px 0px;
+}
+.imageskew {
+  transform: rotate(-15deg);
+}
+.appbtn {
+  margin: 10px 15px;
+}
+.appbtn b {
+  font-size: 1.4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.registerbg {
+  position: fixed;
+  height: 440px;
+  width: 500px;
+  z-index: -1;
+  opacity: 0.4;
+  top: 25%;
+  left: 32%;
+  transition: all linear;
+  animation: rot 3.5s linear infinite;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 800px) {
+  .registerbg {
+    left: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .registerbg {
+    left: -15%;
+  }
+}
+.bookhading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(251, 251, 102);
+  /* color: ; */
+}
+.booktitle {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-bottom: 1px solid black;
+  color: rgb(115, 115, 111);
+}
+@media (max-width: 550px) {
+  .bookhading {
+    font-size: 22px;
+  }
+}
+.bookbg {
+  background: url("../src/images/bookbg.png");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .farmerbg {
+  background: url("./images//farmerbg.jpg") no-repeat;
+  background-size: cover;
+} */
+.farmerbg {
+  content: "";
+  background: url("./images/farmerbg.jpg") no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.ratingheading,
+.aboutdis {
+  color: rgb(158, 158, 152);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.rate input {
+  margin: 5px 5px;
+  font-size: 1.8rem;
+}
+.feedbacksubmit {
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+footer p {
+  margin-top: 8px;
+}
+.footerlink {
+  margin: 0px 10px;
+  color: black;
+}
