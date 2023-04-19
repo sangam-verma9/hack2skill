@@ -17,6 +17,15 @@
 .loginlink {
   margin: 10px;
 }
+.homebg {
+  background: url("../src/images/homebg.png");
+  height: 90vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .cadehov:hover {
   transform: scale(1.5, 1.5);
   cursor: pointer;
@@ -93,9 +102,9 @@ form div {
 } */
 .farmerbg {
   content: "";
-  background: url("./images/farmerbg.jpg") no-repeat;
+  background: url("./images/farmerbg.png") no-repeat;
   background-size: cover;
-  opacity: 0.75;
+  /* opacity: 0.75; */
 }
 
 .ratingheading,

@@ -5,7 +5,7 @@ import imghome from "../src/images/imagehome.png";
 const Home = () => {
   return (
     <>
-      <div className="container-fluid mb-5 ">
+      <div className="container-fluid mb-5 homebg">
         <div className="row">
           <div className="col-10 mx-auto mt-5 pt-5">
             <div className="row d-flex  align-items-center mb-3">
