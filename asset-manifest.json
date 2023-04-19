@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/hack2skill/static/css/main.1c5dbb17.css",
+    "main.js": "/hack2skill/static/js/main.3b448ca7.js",
+    "static/media/farmerbg.png": "/hack2skill/static/media/farmerbg.5b07a676614ee0aacd72.png",
+    "static/media/homebg.png": "/hack2skill/static/media/homebg.1d23c06d21350a29a15c.png",
+    "static/media/image6.jpg": "/hack2skill/static/media/image6.72461a44db212ac59e76.jpg",
+    "static/media/farmer.png": "/hack2skill/static/media/farmer.7d959ba73ff09eee3268.png",
+    "static/media/imagehome.png": "/hack2skill/static/media/imagehome.6536dbf62e4b5e333aea.png",
+    "static/media/image1.png": "/hack2skill/static/media/image1.b9987aef8b750f1e9767.png",
+    "static/media/about2.png": "/hack2skill/static/media/about2.13d6adb2b5514140a79f.png",
+    "static/media/image2.jpg": "/hack2skill/static/media/image2.6363f023d73194725994.jpg",
+    "static/media/image3.jpg": "/hack2skill/static/media/image3.1cd38f3e51a4502c98cf.jpg",
+    "static/media/image5.jpg": "/hack2skill/static/media/image5.6011fd72e3a8c40ba10f.jpg",
+    "static/media/image4.jpg": "/hack2skill/static/media/image4.1388179c36fddc950386.jpg",
+    "static/media/about1.jpg": "/hack2skill/static/media/about1.5942fafef5185751e624.jpg",
+    "static/media/bookbg.png": "/hack2skill/static/media/bookbg.65431cc382f6010e7589.png",
+    "static/media/logo.png": "/hack2skill/static/media/logo.2c8abafec84d0d0859e2.png",
+    "index.html": "/hack2skill/index.html",
+    "main.1c5dbb17.css.map": "/hack2skill/static/css/main.1c5dbb17.css.map",
+    "main.3b448ca7.js.map": "/hack2skill/static/js/main.3b448ca7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c5dbb17.css",
+    "static/js/main.3b448ca7.js"
+  ]
+}
